@@ -29,3 +29,9 @@ SELECT *
 FROM `exams` 
 WHERE `hour` BETWEEN "14:00:00" AND "23:59:59"
 AND `date` = "2020/06/20"
+
+6 - Selezionare tutti i corsi di laurea magistrale (38):
+SELECT *
+FROM `degrees` 
+WHERE  `level` = "magistrale"
+
